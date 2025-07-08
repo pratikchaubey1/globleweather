@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Weather from './Components/Weather';
-import { WeatherContext } from './Context/Context';
+import { WeatherContext } from "./Context/Context";
 import {
   convertTemperature,
   getHumidityValue,
