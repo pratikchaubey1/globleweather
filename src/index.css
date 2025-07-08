@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.some-class {
+  background-image: url('./assets/PIC/react.svg');
+}
