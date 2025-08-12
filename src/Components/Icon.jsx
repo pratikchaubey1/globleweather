@@ -1,10 +1,10 @@
 import React from 'react';
-import windImg from '../assets/wind.png';
-import humidityImg from '../assets/humidity.png';
-import visibilityImg from '../assets/visibility.png';
-import sunriseImg from '../assets/sunrise.png';
-import sunsetImg from '../assets/sunset.png';
-import windImg from '../assets/Wind.png';
+
+import windImg from '../assets/Wind.png';       // Capital W agar file ka naam aisa hai
+import humidityImg from '../assets/Humidity.png';  // Capital H agar file aisa hai
+import visibilityImg from '../assets/Visibility.png';  // Capital V
+import sunriseImg from '../assets/Sunrise.png';  // Capital S
+import sunsetImg from '../assets/Sunset.png';    // Capital S
 
 const Icon = ({ src, alt, className = '' }) => (
   <img src={src} alt={alt} className={`h-8 w-8 inline-block ${className}`} />
