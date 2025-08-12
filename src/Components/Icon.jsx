@@ -3,7 +3,7 @@ import React from 'react';
 // Fix filenames to exactly match case-sensitive file names in ../assets
 import humidityImg from '../assets/humidity.png'; 
 import WindImg from '../assets/Wind.png';
-import VisibilityImg from '../assets/Visibility.png';
+import visibilityImg from '../assets/visibility.png';
 import SunriseImg from '../assets/Sunrise.png';
 import SunsetImg from '../assets/Sunset.png';
 
@@ -20,7 +20,7 @@ export const HumidityIcon = () => (
 );
 
 export const VisibilityIcon = () => (
-  <Icon src={VisibilityImg} alt="Visibility" className="powerful-pulse svg-hover" />
+  <Icon src={visibilityImg} alt="visibility" className="powerful-pulse svg-hover" />
 );
 
 export const SunriseIcon = () => (
