@@ -4,6 +4,7 @@ import humidityImg from '../assets/humidity.png';
 import visibilityImg from '../assets/visibility.png';
 import sunriseImg from '../assets/sunrise.png';
 import sunsetImg from '../assets/sunset.png';
+import windImg from '../assets/Wind.png';
 
 const Icon = ({ src, alt, className = '' }) => (
   <img src={src} alt={alt} className={`h-8 w-8 inline-block ${className}`} />
