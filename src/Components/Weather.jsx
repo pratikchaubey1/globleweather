@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { WeatherContext } from '../Context/context';
+import { WeatherContext } from '../Context/Context';
 
 import Thunderstorm from '../assets/Thunderstorm.gif';
 import Rain from '../assets/Rain.gif';
